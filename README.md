@@ -4,6 +4,12 @@
 
 This project processes videos to extract 3D human poses using the Metrabs model, adjusts aspect ratios (1920x1080 to 1080x1920 if needed), generates 2D/3D visualizations, visualizes unfiltered and filtered Z coordinates of ankle and foot joints, and converts results to an Azure Kinect formatted CSV.
 
+## What You Need
+
+- Python 3.10.16
+
+- Enough disk space for the Metrabs model (~1.5 GB) and output files
+
 ## Installation
 
 1. Clone or download the repository.
